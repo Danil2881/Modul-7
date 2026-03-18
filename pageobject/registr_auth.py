@@ -1,7 +1,7 @@
 from playwright.sync_api import expect
 
 from pageobject.basepage import BasePage
-from qwerty import fullname,email,password
+# from qwerty import fullname,email,password
 from utils.datagenerator import DataGenerator
 
 class Cinescope_reg(BasePage):
